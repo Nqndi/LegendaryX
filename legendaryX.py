@@ -135,7 +135,7 @@ class Main:
       if active_count() - 2 < vars.threads:
         Thread(target=self.LegendaryMC, args=(user_data[0], user_data[1].replace('\n', ''),)).start()
         current_user += 1
-    while vars.remaining != vars.total:
+    while vars.checked != vars.total - 1:
       sleep(1)
 
   def LegendaryMC(self, username, password):
