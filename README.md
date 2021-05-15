@@ -1,2 +1,2 @@
 # LegendaryX
-LegendaryMC felhasználónév:jelszó próbálgató
+LegendaryMC fiók próbálgató
