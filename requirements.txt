@@ -1,0 +1,6 @@
+requests==2.25.1
+easygui==0.98.1
+console==0.9905
+PyYAML==5.4.1
+DateTime==4.3
+console==0.9907
