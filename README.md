@@ -12,4 +12,4 @@ Itt tudod változtatni a program beállításait.
 # Hibát találtam/Ötletem van!
 Az Issues menüben tudsz hibát bejelenteni. Ha kérdésed, vagy ötleted van, írj rám discordon: Nandi#0001
 
-A program csak figyelemfelkeltésre készült, kérlek ne használd semmi rosszra!
+A program csak figyelemfelkeltésre, illetve elemzésre készült, kérlek ne használd semmi rosszra!
