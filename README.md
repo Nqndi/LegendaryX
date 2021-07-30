@@ -9,7 +9,5 @@ Elindítod a programot, kiválasztod a combólistádat, és a proxikat. A többi
 # Mi az a Settings.yml?
 Itt tudod változtatni a program beállításait.
 
-# Hibát találtam/Ötletem van!
-Az Issues menüben tudsz hibát bejelenteni. Ha kérdésed, vagy ötleted van, írj rám discordon: Nandi#0001
 
 A program csak figyelemfelkeltésre, illetve elemzésre készült, kérlek ne használd semmi rosszra!
